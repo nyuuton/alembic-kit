@@ -19,4 +19,4 @@ Lorem ipsum dolor sit amet.
             placeholder="Enter your message">
     <br><br>
     <input type="submit" value="Send Email">
-</form>
+    </form>
