@@ -8,23 +8,15 @@ Lorem ipsum dolor sit amet.
 
 <button name="button" onclick="mailto:nq6626@gmail.com">Click me</button>
 
-<html>
-<h2>Contact us</h2>
-
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-  <br>
- 
-  <label for="email">Email Address:</label>
-  <input type="email" id="email" name="email" required>
-  <br>
- 
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-  <br>
- 
-  <button type="submit">Send</button>
+<h4>Click To Send An E-mail</h4>
+    <form action="mailto: nq6626@gmail.com">
+        Username:<br>
+        <input type="text" name="username" 
+               placeholder="Enter Username"><br><br>
+        Message:<br>
+        <input type="textarea" name="message" 
+            rows="10" cols="30" 
+            placeholder="Enter your message">
+    <br><br>
+    <input type="submit" value="Send Email">
 </form>
-
-</body>
-</html>
