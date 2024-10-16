@@ -26,7 +26,7 @@ baseurl: ''
 titchange logole: 'JP-PDB'
 description: '日本政治関係者の性格を勝手に分析'
 permalink: pretty
-logo: "home.png"
+logo: "~/home.png"
 
 # Pagination
 paginate: 5
